@@ -15,6 +15,7 @@ client = OpenAI(
     base_url="https://api.proxyapi.ru/openai/v1",
 )
 
+
 @app.route('/')
 def index():
     # Получаем случайную цитату
